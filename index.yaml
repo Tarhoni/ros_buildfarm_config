@@ -7,7 +7,7 @@ distributions:
       default: indigo/doc-build.yaml
       released-packages-without-doc-job: indigo/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
+    - tarhoni@gmail.com
     release_builds:
 #      arm: indigo/release-armhf-build.yaml
       default: indigo/release-build.yaml
@@ -37,7 +37,7 @@ distributions:
       default: kinetic/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://54.183.26.131:8080
+jenkins_url: http://localhost:8080
 notification_emails:
 - ros-buildfarm-testfarm@googlegroups.com
 prerequisites:
