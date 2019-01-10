@@ -41,10 +41,10 @@ jenkins_url: http://localhost:8080
 notification_emails:
 - tarhoni@gmail.com
 prerequisites:
-  debian_repositories:
-  - https://github.com/Tarhoni/ros_build
+ debian_repositories:
+- http://repositories.ros.org/ubuntu/building
    debian_repository_keys:
-  - |
+- |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1.4.11 (GNU/Linux)
     mQGiBEsy5KkRBADJbDSISoamRM5AA20bfAeBuhhaI+VaiCVcxw90sq9AI5lIc42F
