@@ -44,7 +44,6 @@ prerequisites:
   debian_repositories:
   - https://github.com/Tarhoni/ros_build
   debian_repository_keys:
-  - |
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
