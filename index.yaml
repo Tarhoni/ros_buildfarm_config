@@ -44,66 +44,43 @@ prerequisites:
   debian_repositories:
   - https://github.com/Tarhoni/ros_build
   debian_repository_keys:
-
------BEGIN PGP PUBLIC KEY BLOCK-----
-
-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
-V2SiXmuucVkTvHUXYCvx/uQMhjE8j25s40vqgZ0=
-=9O24
------END PGP PUBLIC KEY BLOCK-----
+- |
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+    Version: GnuPG v1.4.11 (GNU/Linux)
+    mQGiBEsy5KkRBADJbDSISoamRM5AA20bfAeBuhhaI+VaiCVcxw90sq9AI5lIc42F
+    WzM2acm8yplqWiehAqOLKd+iIrqNGZ+VavZEPTx7o06UZUMRoPBiTFaCwrQ5avKz
+    lt7ij8PRMVWNrJ7A2lDYXfFQVV1o3Xo06qVnv0KLLUmiur0LBu4H/oTH3wCgt+/I
+    D3LUKaMJsc77KwFBTjHB0EsD/26Z2Ud12f3urSNyN6VMWnP3rz6xsmtY4Qsmkbnr
+    JuduxCQBZv6bX1Cr2ulXkv0fFOr+s5OyUv7zyCPbxiJFh3Br7fJGb0b5/M208KPe
+    giITY9hMh/aUbKjXCPoOXPxSL6SWOWV8taR6903EFyLBN0qno/kXIBKnVqBZobgn
+    jIEPA/0fTnxtZtE7EpirGQMF2caJfv7/LCgXmRs9xAhgbE0/caoa1tnc79uaHmLZ
+    FtbGFoAO31YNYM/IUHtmabbGdvZ4oYUwDhjBevVvC7aI+XhuNGK5mU8qCLLSEUOl
+    CUr6BJq/0iFmjwjmwk9idZEYhqSNy2OoYJbq45rbHfbdKLEVrbQeUk9TIEJ1aWxk
+    ZXIgPHJvc2J1aWxkQHJvcy5vcmc+iGAEExECACAFAksy5KkCGwMGCwkIBwMCBBUC
+    CAMEFgIDAQIeAQIXgAAKCRBVI7rusB+hFmk7AJ0XsLp05KA8l3YzAumZfjSN04MZ
+    jQCfQHfp4aQUXdOCUtetVo0QZUX3IuO5Ag0ESzLkrhAIAOCuSC83VXYWf8gOMSzd
+    xwpsH/uLV9Wze2LGnajsJLjEOhcsz2BHfxqNXhYaE9aQaodPCpbUAkPq8tLbpXy0
+    SWRCx0F5RcplXx5vIWbP6TlfPbRpK70w7IWd6vsNrjwEHjlhOLcNcj42sp5pgx4b
+    dceK06k5Ml2hYovPnD9o2TYgjOqg5FHZ2g1J0103n/66bN/hZnpLaZJYQiPWCyq6
+    K0565i1k2Y7hgWB/OXqwaqCehqmLTvpyQGzE1UJvKLuYU+T+4hBnSPbT3KIi5fCz
+    lIwvxijOMcfbkLhzYQXcU0Rd1VItcd5nmPL4z97jBxzuhkgxXpGR4WGKhvsA2Z9Y
+    UtsAAwYH/3Bf44bTpD9bVADUdab3e7zm8iHfh9K/a83mIgDB7mHV6WuemQVTf/1d
+    eu4mI5WtpbOCoucybGfjGIIAcSxwIx6VfC7HSp4J51bOpHhbdDffUEk6QVsZjwoF
+    yn3W9W3ZVeTI+ch/Qoo5a98SnmdjN8eXI/qCuiXOHc6rXDXc2R0iox/1EAS8xGVd
+    cYZe7IWBO2CjCknyhLrWxZHoy+i1GCZ9KvPF/Ef2dmLhCydT73ZlumsY8N5vm76Q
+    ul1G7f8LNbnMgXQafRkPffrAXSVhGY3Z2IiBwFNgxcKTq479l7yedYRGeU1A+SYI
+    YmRFWHXt3rTkMlQSpxCsB0fAYfrwEqqISQQYEQIACQUCSzLkrgIbDAAKCRBVI7ru
+    sB+hFpryAJ4puo6cMZxa6wITHFAM/k84+aRijwCeItuWpUngP25xDuDGMsKarcNi
+    qYE=
+    =Vgio
+    -----END PGP PUBLIC KEY BLOCK-----
 
 
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - https://github.com/Tarhoni/ros_build
-  - https://github.com/Tarhoni/ros_test
-  - https://githun.com/Tarhoni/for_test
+  - http://repositories.ros.org/ubuntu/building
+  - http://repositories.ros.org/ubuntu/testing
+  - http://repositories.ros.org/ubuntu/main
 type: buildfarm
 version: 1
