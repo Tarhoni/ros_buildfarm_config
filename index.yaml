@@ -29,7 +29,7 @@ distributions:
       default: kinetic/doc-build.yaml
       released-packages-without-doc-job: kinetic/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
+    - tarhoni@gmail.com
     release_builds:
       arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
@@ -39,47 +39,72 @@ doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://127.0.0.1:8080
 notification_emails:
-- ros-buildfarm-testfarm@googlegroups.com
+- tarhoni@gmail.com
 prerequisites:
   debian_repositories:
-  - http://54.183.65.232/ubuntu/building
+  - https://github.com/Tarhoni/ros_build
   debian_repository_keys:
   - |
-    -----BEGIN PGP PUBLIC KEY BLOCK-----
-    Version: GnuPG v1
 
-    mQENBFRj9wABCADBxfCOCydUqsXS4JlhytBZroc7129AGHTn62xanKYXN1ihB5Ay
-    pLGJcz22MHnCegcCUA6HXOaOdLJTg8PZp/ncOGcLjRsmy+tkQzC0aX0yKhH1bKxe
-    TKe2/Kdk7y8SwW3Uw2r+R/d36DUoCTCRmibScIM4clD4eOOz/FZEVbnZuGmEKw1z
-    O5oMDgerEm8ou4s45RwIfTyt2UodxhLpjBWvuMKhKvc8JlpiZD/TMj+/uMhDe/eL
-    ijG+tMi9vUdo1B4xsDlLW7GFCmYXMBzhuO30TaC9PSE2e2cQS1jWX4113l32oXdg
-    IP8Nl1yxFGDPAKLQe+HNt7gyhoEkPP6tUKARABEBAAG0H1JPUyBSZWxlYXNlIDxu
-    b29uZUBleGFtcGxlLmNvbT6JATgEEwECACIFAlRj9wACGwMGCwkIBwMCBhUIAgkK
-    CwQWAgMBAh4BAheAAAoJEIsjFZ/llEM2cx8H/Ru8upiYAhwphPxOPEvkLfqZDEjI
-    LrFg4A5WhUvhMFpRzdOUovVCM9D73rtZEsaQgmtPIs1Mdp8M44E5G7sV9Zjp/4zf
-    T/vgopfBjG9M3foWkhWyupFlHm7AC9tv+3+vmzW5uzvrk/tRqirpU/5lm+wEE+Xq
-    Jy2UlkGj8o1WZDJXd0SoJF/MRXBwOa9kkpxNMLrOGSSra9GzBsIO9570QAUOD8pA
-    OKD+5pjDIdnySDpfBNIhv029dBhSKZg5sTzZr3dxise759l0W+8i1H6GUvxWe4km
-    8v7YDPyajsHs43ImbZQrMcr5l1TAVk8OBSLqGmtiLasRFnHQUxQyJNyo3gS5AQ0E
-    VGP3AAEIAM+qLZEg9qagVbm/FvS1wGlQVFgokjWGIZCxbzC2mNNAmyNXvOeCD899
-    N0xnprYd131Ocg53tllkYeSyUNBfO0f/CI0Msh+hzDivT0HqJxmxZGWHrm35to4e
-    LSIAOmoxDNXQwpC4ZNTUPZNNFdCfU0tGGXnA66BYpilfEv20eBgk1x+pu1vJxne1
-    /SPUwZAiiWb2ydRHvLJErUTcXGKn5UG4PlUAOCCoBC3195TIevlO9hlvtLkW9olu
-    hnWNtJJHfbjtwoQC+z5Kn4miFl/FkXAp8YfYSCF3glXAXY08dLIJkFCyi07J3jj6
-    I6xX0An+i8P/k/DyldjaMoutARLswuMAEQEAAYkBHwQYAQIACQUCVGP3AAIbDAAK
-    CRCLIxWf5ZRDNpN5CACdKoLcjJIIPQuCPyLdba5z6prRRo21Yud5dtyGGhOmDAt/
-    cjlmdwlta/ZkArkTB9is4iIDvo2D4PmRA756VHEBfhqwknt5DANMm3p9A5/z+sgX
-    n/punYuskxDjOU2+NwbBXRHgXz1vQpIEVtS3bQvjmyPn/yl31NM5zZ9Lwat/ynKj
-    iAvRflohugScLVSA0VCvn4gKlxCHBvtNS22rvsPW2zbOz38pp5gU+fNRUaLRmHna
-    b97l/64k31UzIQHeAHHbGODQfJ0PpKyS9UM4vvcMldUrBL4O4fLVaeqMjAhKSfcY
-    xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
-    =E8ot
-    -----END PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=9O24
+-----END PGP PUBLIC KEY BLOCK-----
+
+
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://54.183.65.232/ubuntu/building
-  - http://54.183.65.232/ubuntu/testing
-  - http://54.183.65.232/ubuntu/main
+  - https://github.com/Tarhoni/ros_build
+  - https://github.com/Tarhoni/ros_test
+  - https://githun.com/Tarhoni/for_test
 type: buildfarm
 version: 1
