@@ -42,7 +42,7 @@ notification_emails:
 - tarhoni@gmail.com
 prerequisites:
   debian_repositories:
-  - http://54.183.65.232/ubuntu/building
+  - http://packages.ros.org/ros/ubuntu
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
