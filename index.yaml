@@ -75,7 +75,7 @@ distributions:
 doc_builds:
   independent-packages: doc-independent-build.yaml
   rosindex: doc-rosindex.yaml
-jenkins_url: http://localhost:8080
+jenkins_url: http://localhost:8081
 notification_emails:
 - ros-buildfarm@googlegroups.com
 - steven+build.ros.org@openrobotics.org
