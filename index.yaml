@@ -115,7 +115,8 @@ prerequisites:
     qYE=
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/tarhoni/rosdistro/master/index.yaml
+rosdistro_index_url: https://gitlab.cc-asp.fraunhofer.de/iml/oe130/ROS/ros-build-farm/rosdistro/raw/master/index.yaml
+# rosdistro_index_url: https://raw.githubusercontent.com/tarhoni/rosdistro/master/index.yaml
 status_page_repositories:
   default:
   - http://repositories.ros.org/ubuntu/building
